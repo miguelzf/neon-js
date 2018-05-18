@@ -105,10 +105,10 @@
         "02a7bc55fe8684e0119768d104ba30795bdcc86619e864add26156723ed185cd62"
       ],
       "SeedList": [
-        "127.0.0.1:20333",
-        "127.0.0.1:20334",
-        "127.0.0.1:20335",
-        "127.0.0.1:20336"
+        "192.168.1.148:20333",
+        "192.168.1.148:20334",
+        "192.168.1.148:20335",
+        "192.168.1.148:20336"
       ],
       "SystemFee": {
         "EnrollmentTransaction": 10,
@@ -118,8 +118,8 @@
       }
     },
     "ExtraConfiguration": {
-      "neonDB": "http://localhost:5000",
-      "neoscan": "http://localhost:4000/api/main_net"
+      "neonDB" : "http://192.168.1.148:5000",
+      "neoscan": "http://192.168.1.148:4000/api/main_net"
     }
   }
 }
